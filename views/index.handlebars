@@ -15,13 +15,15 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
+    <li>
+      {{burger_name}}
+    </li>
     {{/if}}
   {{/each}}
 </ul>
 
 <h2>Add a Burger</h2>
-<form class="create-form">
+<form class="create-form create-burger">
 
   <div class="form-group">
     <label for="ca">Burger Name:</label>
