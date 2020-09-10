@@ -157,6 +157,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### Directory structure
 
+
 All the recommended files and directories from the steps above should look like the following structure:
 
 ```
